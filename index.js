@@ -24,7 +24,7 @@ async function checkYouTubeRSS() {
         if (lastVideoId !== videoId) {
             lastVideoId = videoId;
             const channel = await client.channels.fetch(process.env.CHANNEL_ID);
-            const customText = "YO legende @everyone .NotAit je ravnokar objavil nov video/stream";
+            const customText = "ANY TEXT YOU WANT";
 
             await channel.send(`${customText} **${videoTitle}**\n${videoLink}`);
             console.log(`📢 New video: ${videoTitle}`);

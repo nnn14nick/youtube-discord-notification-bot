@@ -1,6 +1,6 @@
 # Simple Discord Youtube Notification Bot
 
-A simple discord bot built with **Discord.js** that sends notification to your server when a youtube video/stream is released on defined youtube channel. The bot checks for new video/stream every 5 minutes.
+A simple discord bot built with **Discord.js** that sends notification to your discord server when a youtube video/stream is released on defined youtube channel. The bot checks for new video/stream every 5 minutes.
 
 1. download or clone the repository
 2. npm install
